@@ -83,6 +83,17 @@ body {
   width: auto;
 }
 
+.photo1{
+  background-color: #8385ba;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 2vmin;
+  height: 80%;
+  width: auto;
+}
+
 .adjust{
   height: 96%;
   width: auto;
