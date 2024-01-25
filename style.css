@@ -53,7 +53,7 @@ body {
 .page {
   width: 423.5px;
   height: 654.5px;
-  background: #eee;
+  background: white;
   position: absolute;
   top: 0;
   right: 0;
@@ -64,6 +64,7 @@ body {
   display: flex;
   justify-content: center;
   flex-direction: column;
+  /* gap: 5px; */
 }
 
 .pic{
@@ -87,6 +88,9 @@ body {
   width: auto;
 }
 
+.hi50{
+  height: 50%;
+}
 
 .adjustvideo{
   width: 100%;
@@ -185,7 +189,7 @@ body {
   padding: 5% 4% 4% 5%;
   transform-origin: 0% 50%;
   transform: translatez(-9px);
-  background: #f5f5f5;
+  background: #ccc;
 }
 
 .left-side:nth-child(9) {
